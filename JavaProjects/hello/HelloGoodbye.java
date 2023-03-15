@@ -1,5 +1,5 @@
 public class HelloGoodbye {
-    public static void main(String argc[]) {
+    public static void main(String[] args) {
         string name1 = argc[0];
         string name2 = argc[1];
 
