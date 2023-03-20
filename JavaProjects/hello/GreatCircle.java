@@ -1,8 +1,8 @@
 public class GreatCircle {
     public static void main(String[] args) {
         Double x1 = Math.toRadians(Double.parseDouble(args[0]));
-        Double x2 = Math.toRadians(Double.parseDouble(args[1]));
-        Double y1 = Math.toRadians(Double.parseDouble(args[2]));
+        Double y1 = Math.toRadians(Double.parseDouble(args[1]));
+        Double x2 = Math.toRadians(Double.parseDouble(args[2]));
         Double y2 = Math.toRadians(Double.parseDouble(args[3]));
         Double r = 6371.0;
 
