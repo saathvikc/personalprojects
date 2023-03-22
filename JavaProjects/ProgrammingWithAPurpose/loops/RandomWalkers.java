@@ -1,8 +1,8 @@
 public class RandomWalkers {
     public static void main(String[] args) {
         int r = Integer.parseInt(args[0]);
-        int trials = Integer.parseInt(args[1]);
-        int num_steps = 0;
+        double trials = Double.parseDouble(args[1]);
+        double num_steps = 0.0;
         int x1 = 0, x2 = 0;
         int y1 = 0, y2 = 0;
 
