@@ -3,7 +3,6 @@ public class RandomWalkers {
         int r = Integer.parseInt(args[0]);
         int trials = Integer.parseInt(args[1]);
         int num_steps = 0;
-        double average_steps = 0.0;
         int x1 = 0, x2 = 0;
         int y1 = 0, y2 = 0;
 
@@ -21,9 +20,12 @@ public class RandomWalkers {
                 }
                 num_steps++;
             }
+
+            y1 = 0;
+            y2 = 0;
         }
 
-        average_steps = num_steps / trials;
+        double average_steps = num_steps / trials;
 
         System.out.println("average number of steps = " + average_steps);
     }
