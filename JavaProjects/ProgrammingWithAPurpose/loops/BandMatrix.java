@@ -10,7 +10,7 @@ public class BandMatrix {
                 } else if (j != n) {
                     System.out.print("0 ");
                 } else {
-                    System.out.print("0");
+                    System.out.print("0"); 
                 }
             }
             System.out.println();
