@@ -21,7 +21,7 @@ public class RandomWalker {
             System.out.println("(" + y1 + ", " + y2 + ")");
             num_steps++;
         }
-
+ 
         System.out.println("steps = " + num_steps);
     }
 }
